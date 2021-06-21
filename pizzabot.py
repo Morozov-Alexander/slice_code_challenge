@@ -30,6 +30,7 @@ def find_shortest_path(key_points:list):
 
     print(string_path)
     logger.info("The path was found - {}".format(string_path))
+    return string_path
 
 
 def main():
